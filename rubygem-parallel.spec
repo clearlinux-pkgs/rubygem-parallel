@@ -4,7 +4,7 @@
 #
 Name     : rubygem-parallel
 Version  : 1.6.0
-Release  : 5
+Release  : 6
 URL      : https://rubygems.org/downloads/parallel-1.6.0.gem
 Source0  : https://rubygems.org/downloads/parallel-1.6.0.gem
 Summary  : No detailed summary available
