@@ -4,7 +4,7 @@
 #
 Name     : rubygem-parallel
 Version  : 1.6.2
-Release  : 7
+Release  : 8
 URL      : https://rubygems.org/downloads/parallel-1.6.2.gem
 Source0  : https://rubygems.org/downloads/parallel-1.6.2.gem
 Summary  : No detailed summary available
@@ -46,59 +46,9 @@ fi
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/parallel-1.6.2.gem
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Break/cdesc-Break.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/DeadWorker/cdesc-DeadWorker.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/ExceptionWrapper/cdesc-ExceptionWrapper.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/ExceptionWrapper/exception-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/ExceptionWrapper/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/JobFactory/cdesc-JobFactory.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/JobFactory/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/JobFactory/next-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/JobFactory/pack-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/JobFactory/producer%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/JobFactory/queue_wrapper-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/JobFactory/size-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/JobFactory/unpack-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Kill/cdesc-Kill.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/ProcessorCount/cdesc-ProcessorCount.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/ProcessorCount/physical_processor_count-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/ProcessorCount/processor_count-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/UserInterruptHandler/cdesc-UserInterruptHandler.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/UserInterruptHandler/kill-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/UserInterruptHandler/kill_on_ctrl_c-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/UserInterruptHandler/restore_interrupt-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/UserInterruptHandler/trap_interrupt-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Worker/cdesc-Worker.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Worker/close_pipes-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Worker/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Worker/pid-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Worker/read-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Worker/thread-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Worker/wait-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Worker/work-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/Worker/write-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/add_progress_bar%21-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/call_with_index-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/cdesc-Parallel.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/create_workers-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/each-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/each_with_index-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/extract_count_from_options-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/handle_exception-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/in_processes-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/in_threads-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/map-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/map_with_index-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/process_incoming_jobs-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/with_instrumentation-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/work_direct-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/work_in_processes-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/work_in_threads-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/Parallel/worker-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/parallel-1.6.2/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/gems/parallel-1.6.2/MIT-LICENSE.txt
-/usr/lib64/ruby/gems/2.2.0/gems/parallel-1.6.2/lib/parallel.rb
-/usr/lib64/ruby/gems/2.2.0/gems/parallel-1.6.2/lib/parallel/processor_count.rb
-/usr/lib64/ruby/gems/2.2.0/gems/parallel-1.6.2/lib/parallel/version.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/parallel-1.6.2.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/parallel-1.6.2.gem
+/usr/lib64/ruby/gems/2.3.0/gems/parallel-1.6.2/MIT-LICENSE.txt
+/usr/lib64/ruby/gems/2.3.0/gems/parallel-1.6.2/lib/parallel.rb
+/usr/lib64/ruby/gems/2.3.0/gems/parallel-1.6.2/lib/parallel/processor_count.rb
+/usr/lib64/ruby/gems/2.3.0/gems/parallel-1.6.2/lib/parallel/version.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/parallel-1.6.2.gemspec
